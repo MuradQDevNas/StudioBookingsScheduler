@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "StudioBookingSystem.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44383",
+      "path": "../../../src/StudioBookingSystem.Web/StudioBookingSystem.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}

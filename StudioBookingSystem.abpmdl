@@ -1,0 +1,121 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXTheme": {
+      "version": "4.0.5",
+      "isInstalled": true
+    },
+    "Volo.Abp.TextTemplateManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.LanguageManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Gdpr": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.AuditLogging.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Saas": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "StudioBookingSystem.Application": {
+      "path": "src/StudioBookingSystem.Application/StudioBookingSystem.Application.abppkg",
+      "folder": "src"
+    },
+    "StudioBookingSystem.Application.Tests": {
+      "path": "test/StudioBookingSystem.Application.Tests/StudioBookingSystem.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "StudioBookingSystem.Domain.Shared": {
+      "path": "src/StudioBookingSystem.Domain.Shared/StudioBookingSystem.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "StudioBookingSystem.Application.Contracts": {
+      "path": "src/StudioBookingSystem.Application.Contracts/StudioBookingSystem.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "StudioBookingSystem.HttpApi": {
+      "path": "src/StudioBookingSystem.HttpApi/StudioBookingSystem.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "StudioBookingSystem.HttpApi.Client": {
+      "path": "src/StudioBookingSystem.HttpApi.Client/StudioBookingSystem.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "StudioBookingSystem.Web": {
+      "path": "src/StudioBookingSystem.Web/StudioBookingSystem.Web.abppkg",
+      "folder": "src"
+    },
+    "StudioBookingSystem.Web.Tests": {
+      "path": "test/StudioBookingSystem.Web.Tests/StudioBookingSystem.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "StudioBookingSystem.EntityFrameworkCore.Tests": {
+      "path": "test/StudioBookingSystem.EntityFrameworkCore.Tests/StudioBookingSystem.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "StudioBookingSystem.EntityFrameworkCore": {
+      "path": "src/StudioBookingSystem.EntityFrameworkCore/StudioBookingSystem.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "StudioBookingSystem.TestBase": {
+      "path": "test/StudioBookingSystem.TestBase/StudioBookingSystem.TestBase.abppkg",
+      "folder": "test"
+    },
+    "StudioBookingSystem.Domain.Tests": {
+      "path": "test/StudioBookingSystem.Domain.Tests/StudioBookingSystem.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "StudioBookingSystem.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/StudioBookingSystem.HttpApi.Client.ConsoleTestApp/StudioBookingSystem.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "StudioBookingSystem.DbMigrator": {
+      "path": "src/StudioBookingSystem.DbMigrator/StudioBookingSystem.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "StudioBookingSystem.Domain": {
+      "path": "src/StudioBookingSystem.Domain/StudioBookingSystem.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
