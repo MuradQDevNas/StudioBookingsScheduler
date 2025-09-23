@@ -23,6 +23,8 @@ namespace DevNas.Bookings.EntityFrameworkCore
                 b.Property(x => x.Description).HasMaxLength(1024);
             });
 
+            builder.Ignore<TimeRange>(); // prevent EF Core from treating it as entity
+
             // Booking mapping
             builder.Entity<Booking>(b =>
             {
@@ -35,12 +37,13 @@ namespace DevNas.Bookings.EntityFrameworkCore
                 // Value Object mapping for TimeRange
                 b.OwnsOne(x => x.TimeRange, tr =>
                 {
-                    tr.Property(x => x.StartTime).IsRequired();
-                    tr.Property(x => x.EndTime).IsRequired();
+                    tr.Property(x => x.StartTime).IsRequired().HasColumnName("StartTime");
+                    tr.Property(x => x.EndTime).IsRequired().HasColumnName("EndTime");
                 });
 
                 b.Property(x => x.Status).IsRequired();
             });
+
         }
     }
 }

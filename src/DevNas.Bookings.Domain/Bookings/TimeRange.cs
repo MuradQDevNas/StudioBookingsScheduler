@@ -6,8 +6,8 @@ namespace DevNas.Bookings.Bookings
 {
     public class TimeRange : ValueObject
     {
-        public DateTime StartTime { get; private set; }
-        public DateTime EndTime { get; private set; }
+        public DateTime StartTime { get; protected set; }
+        public DateTime EndTime { get; protected set; }
 
         protected TimeRange() { }
 
