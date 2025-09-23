@@ -1,0 +1,22 @@
+using DevNas.Bookings.Localization;
+using Volo.Abp.Authorization.Permissions;
+using Volo.Abp.Localization;
+using Volo.Abp.MultiTenancy;
+
+namespace DevNas.Bookings.Permissions;
+
+public class BookingsPermissionDefinitionProvider : PermissionDefinitionProvider
+{
+    public override void Define(IPermissionDefinitionContext context)
+    {
+        var myGroup = context.AddGroup(BookingsPermissions.GroupName);
+
+        //Define your own permissions here. Example:
+        //myGroup.AddPermission(BookingsPermissions.MyPermission1, L("Permission:MyPermission1"));
+    }
+
+    private static LocalizableString L(string name)
+    {
+        return LocalizableString.Create<BookingsResource>(name);
+    }
+}

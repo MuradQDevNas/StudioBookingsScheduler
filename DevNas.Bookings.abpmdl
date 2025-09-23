@@ -1,0 +1,105 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.3.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.3.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.3.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.3.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.3.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.3.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.3.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.3.4",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "DevNas.Bookings.Application": {
+      "path": "src/DevNas.Bookings.Application/DevNas.Bookings.Application.abppkg",
+      "folder": "src"
+    },
+    "DevNas.Bookings.Application.Tests": {
+      "path": "test/DevNas.Bookings.Application.Tests/DevNas.Bookings.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "DevNas.Bookings.Domain.Shared": {
+      "path": "src/DevNas.Bookings.Domain.Shared/DevNas.Bookings.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "DevNas.Bookings.Application.Contracts": {
+      "path": "src/DevNas.Bookings.Application.Contracts/DevNas.Bookings.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "DevNas.Bookings.HttpApi": {
+      "path": "src/DevNas.Bookings.HttpApi/DevNas.Bookings.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "DevNas.Bookings.HttpApi.Client": {
+      "path": "src/DevNas.Bookings.HttpApi.Client/DevNas.Bookings.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "DevNas.Bookings.Web": {
+      "path": "src/DevNas.Bookings.Web/DevNas.Bookings.Web.abppkg",
+      "folder": "src"
+    },
+    "DevNas.Bookings.Web.Tests": {
+      "path": "test/DevNas.Bookings.Web.Tests/DevNas.Bookings.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "DevNas.Bookings.EntityFrameworkCore.Tests": {
+      "path": "test/DevNas.Bookings.EntityFrameworkCore.Tests/DevNas.Bookings.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "DevNas.Bookings.EntityFrameworkCore": {
+      "path": "src/DevNas.Bookings.EntityFrameworkCore/DevNas.Bookings.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "DevNas.Bookings.TestBase": {
+      "path": "test/DevNas.Bookings.TestBase/DevNas.Bookings.TestBase.abppkg",
+      "folder": "test"
+    },
+    "DevNas.Bookings.Domain.Tests": {
+      "path": "test/DevNas.Bookings.Domain.Tests/DevNas.Bookings.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "DevNas.Bookings.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/DevNas.Bookings.HttpApi.Client.ConsoleTestApp/DevNas.Bookings.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "DevNas.Bookings.DbMigrator": {
+      "path": "src/DevNas.Bookings.DbMigrator/DevNas.Bookings.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "DevNas.Bookings.Domain": {
+      "path": "src/DevNas.Bookings.Domain/DevNas.Bookings.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
